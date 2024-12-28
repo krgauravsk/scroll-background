@@ -1,0 +1,52 @@
+.App {
+  transition: background-color 1s ease;
+  padding: 20px;
+}
+.imgCard {
+  width: 420px;
+}
+
+@media only screen and (max-width: 425px) {
+  .imgCard {
+    width: 350px;
+  }
+}
+.panelTitle {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.panel {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+
+.color-pink {
+  background-color: #ff608c;
+}
+.color-cream {
+  background-color: #f6e0a4;
+}
+.color-blue {
+  background-color: #1d3fbb;
+}
+.color-cyan {
+  background-color: #00c1b5;
+}
+.color-yellow {
+  background-color: #ffbe00;
+}
+.color-orange {
+  background-color: #ff651a;
+}
+.color-red {
+  background-color: #e30512;
+}
+.color-white {
+  background-color: #f4f4f4;
+}
